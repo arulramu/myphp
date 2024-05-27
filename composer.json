@@ -1,24 +1,6 @@
 {
-  "name": "php-actions/example-composer",
-  "description": "An example project that uses php-actions/composer",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "[^1^][1]"
-    }
-  ],
-  "require": {
-    "phpgt/webengine": "^v4",
-    "php-actions/example-private-repo": "dev-master"
-  },
-  "autoload": {
-    "psr-4": {
-      "ExampleComposer\\": "./src"
-    }
-  },
-  "scripts": {
-    "env-test": "ExampleComposer\\Debug::inspectEnvironmentVariables",
-    "show-version": "ExampleComposer\\Debug::showVersion"
-  }
+    "name": "your/package-name",
+    "description": "Your package description",
+    "license": "proprietary",
+    // Other properties...
 }
-
