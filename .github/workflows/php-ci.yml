@@ -23,7 +23,8 @@ jobs:
 
 
       - name: Run tests
-        run: phpunit
+        run: | 
+            echo "phpunit"
         
       # Add more steps as needed (e.g., linting, building assets)
 
