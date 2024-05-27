@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-         echo "Test Php"
+        
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -27,3 +27,4 @@ jobs:
       # Add more steps as needed (e.g., linting, building assets)
 
 # You can also add deployment steps here
+echo "test"
