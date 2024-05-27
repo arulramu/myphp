@@ -19,7 +19,8 @@ jobs:
           php-version: 7.4  # Choose your PHP version
 
       - name: Install dependencies
-        run: composer install
+        run: cd myphp && composer install
+
 
       - name: Run tests
         run: phpunit
